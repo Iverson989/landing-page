@@ -25,3 +25,14 @@ a {
   color: #e5e7eb;
   text-decoration: none;
 }
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
