@@ -7,12 +7,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 15vh;
+  height: 5vh;
 }
 
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: bold;
 }
 
 .link-container {
@@ -26,13 +27,40 @@ a {
   text-decoration: none;
 }
 
+.hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0 100px;
+}
+
+.hero-text {
+  height: 100%;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
+  margin-bottom: 1vh;
 }
 
 p {
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 20%;
+}
+
+.hero-image {
+  color: white;
+  background-color: rgb(112, 116, 131);
+  padding: 10%;
 }
