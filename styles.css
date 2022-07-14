@@ -61,6 +61,57 @@ button {
 
 .hero-image {
   color: white;
-  background-color: rgb(112, 116, 131);
+  background-color: #808080;
   padding: 5vh 5vw;
+}
+
+.sec-2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rand-info {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.holders {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  max-width: 60px;
+}
+
+img {
+  border: 5px solid #3882f6;
+  border-radius: 25%;
+  padding: 60px;
+}
+
+.subtext {
+  text-align: center;
+}
+
+.sec-3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+}
+
+.source {
+  align-self: flex-end;
+  font-weight: bold;
+  font-style: 18px;
 }
