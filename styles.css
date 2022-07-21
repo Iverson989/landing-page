@@ -1,5 +1,17 @@
+body {
+  width: 1440px;
+  height: 1912px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
 .sec-1 {
   background-color: #1f2937;
+  height: 25%;
+  padding: 90px;
 }
 
 .header {
@@ -70,6 +82,7 @@ button {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  height: 25%;
 }
 
 .rand-info {
@@ -83,6 +96,7 @@ button {
   gap: 20px;
   justify-content: center;
   max-width: 60px;
+  padding-top: 40px;
 }
 
 img {
@@ -101,6 +115,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 25%;
+  padding: 150px;
 }
 
 .quote {
@@ -114,4 +130,37 @@ img {
   align-self: flex-end;
   font-weight: bold;
   font-style: 18px;
+}
+
+.box {
+  height: 25%;
+}
+
+.sec-4 {
+  padding: 90px;
+}
+
+.container4 {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+  width: 1440px;
+  color: #e5e7eb;
+  padding: 50px 0 50px 0;
+  max-width: 1140px;
+}
+
+.signup2 {
+  border-color: #e5e7eb;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 40px;
 }
